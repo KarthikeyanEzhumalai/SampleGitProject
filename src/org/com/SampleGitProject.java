@@ -22,15 +22,14 @@ public class SampleGitProject {
 				
 				
 			}
+			else {
+				
+				r = r+ch;
+			}
 			
-		}
-		
-	else {
-		
-		r = r+ch;
-	}
-		System.out.println(r);
-	}	
+		}		
 	
+		System.out.println(r);
+	}
 
 }
