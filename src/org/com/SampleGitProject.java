@@ -9,6 +9,16 @@ public class SampleGitProject {
 			
 			char ch = s.charAt(i);
 			
+			
+			
+			else if (Character.isLowerCase(ch)) {
+				
+				char c2 = Character.toUpperCase(ch);
+				r=r+c2;
+				
+				
+			}
+			
 		}	
 	
 		
