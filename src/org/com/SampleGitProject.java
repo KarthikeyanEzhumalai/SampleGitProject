@@ -12,6 +12,15 @@ public class SampleGitProject {
 				char c1 = Character.toLowerCase(ch);
 				r=r+c1;
 				
+			}			
+			
+			else if (Character.isLowerCase(ch)) {
+				
+				char c2 = Character.toUpperCase(ch);
+				
+				r=r+c2;
+				
+				
 			}
 			
 		}	
