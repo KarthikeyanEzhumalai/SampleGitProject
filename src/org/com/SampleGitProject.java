@@ -9,9 +9,13 @@ public class SampleGitProject {
 			
 			char ch = s.charAt(i);
 			
-		}	
-	
+		}
 		
+	else {
+		
+		r = r+ch;
+	}
+		System.out.println(r);
 	}	
 	
 
